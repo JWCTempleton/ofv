@@ -1,0 +1,102 @@
+.container-fluid {
+    padding:0;
+}
+
+.navbar-brand {
+    font-family: 'Arizonia', cursive;
+    font-size: 75px;
+    font-weight: 300;
+    padding-left: 6rem;
+}
+
+.site-title {
+    font-family: 'Inter', sans-serif;
+    text-decoration: underline overline;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    padding-left: 5rem;
+}
+
+.main {
+    background-color: rgb(243, 243, 243);
+    margin-top: 8rem;
+}
+
+.about-content {
+    background: linear-gradient(rgba(20, 0, 20, 0.65),rgba(20, 0, 20, 0.65)), url('Images/dark_grapes.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-title, .about-description, .about-description-2 {
+    color: white;
+    font-family: 'Inter';
+    width: 60vw;
+}
+
+.about-title {
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.about-description {
+    line-height: 40px;
+}
+.about-description-2 {
+    margin-bottom: 12%;
+    line-height: 40px;
+}
+
+.card {
+    margin: 10px;
+    max-width: 15rem;
+}
+
+.wine-type {
+    font-size: 45px;
+}
+
+.visit-us-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('Images/wine_tasting.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 6rem;
+}
+
+.visit-us-title-primary {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    color: white;
+    font-size: 50px;
+    font-family: "Inter";
+}
+
+.visit-us-title-secondary {
+    color:white;
+    font-size: 22px;
+    font-family: "Inter";
+    margin-bottom: 3rem;
+}
+
+.visit-us-info {
+    color: white;
+    font-size: 18px;
+    font-family: "Inter";
+    width: 60vw;
+    line-height: 40px;
+}
+
+.contact-us {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.contact-us-title {
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    font-size: 50px;
+    font-family: "Inter";
+}
