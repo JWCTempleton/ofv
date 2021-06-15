@@ -14,6 +14,11 @@
     text-decoration: underline overline;
     letter-spacing: 2px;
     font-weight: 600;
+    animation: fadeIn 2.1s ease-out;
+}
+
+.site-title-secondary {
+    animation: moveInRight 1.3s ease-out;
 }
 
 .navbar-nav {
@@ -25,7 +30,6 @@
     margin-top: 8rem;
     margin-bottom: 4rem;
 }
-
 
 .about-content {
     background: linear-gradient(rgba(20, 0, 20, 0.65),rgba(20, 0, 20, 0.65)), url('Images/dark_grapes.jpg');
@@ -106,4 +110,24 @@
 .prop-65 {
     padding-top: 3rem;
     padding-bottom: 4rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(35px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
